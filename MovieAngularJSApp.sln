@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E14DC1CD-290A-453C-A85C-56DDFEB1B043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{155DDE71-11DF-4F81-8764-176DCAD4B8C3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MovieAngularJSApp", "src\MovieAngularJSApp\MovieAngularJSApp.xproj", "{CD037CA4-987E-41A8-9D47-81DC5B766C8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD037CA4-987E-41A8-9D47-81DC5B766C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD037CA4-987E-41A8-9D47-81DC5B766C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD037CA4-987E-41A8-9D47-81DC5B766C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD037CA4-987E-41A8-9D47-81DC5B766C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD037CA4-987E-41A8-9D47-81DC5B766C8E} = {E14DC1CD-290A-453C-A85C-56DDFEB1B043}
+	EndGlobalSection
+EndGlobal
